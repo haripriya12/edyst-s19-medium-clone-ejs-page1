@@ -1,107 +1,167 @@
-.container{
-    margin-top: 6%;
-    margin-bottom: 6%;
-}
-.main-container{
-    display: flex;
-    flex-direction: row; 
-} 
-.logo{
-    /* width: 100px; */
-    /* height: 45%; */
-    /* display: flex;
-    flex: 1;   */
-    display: flex;
-    flex: 3;
-    font-family: sans-serif,Arial;
-    font-size: 10px;
-    height: 45%;
-    font-weight: bold;
-    margin-top: -5%;
-}
-.searchbox{
-    font-family: sans-serif,Arial;
-    font-size: 15px;
-    font-weight: bold;
-    /* letter-spacing: -0.05em;
-    line-height: 45px; 
-    height: 3%; */
-    /* padding: 20px; */
-}
-.mem{
-    /* display: flex;
-    flex: 1;  */
-    font-family: sans-serif,Arial;
-    font-size: 10px;
-}
-.mem>a{
-    color:  rgb(48, 51, 48);
-}
-.login-form{
-    /* display: flex;
-    flex: 9;  */
-    font-family: sans-serif,Arial;
-    font-size: 10px;
-    font-weight: bold;
-    letter-spacing: -0.05em;
-}
-.login-form>a{
-    color: rgb(37, 226, 31);
-    text-decoration: none;
-}
-.tags{
-    margin-top: 9%;
-}
-.tags>a{
-    color: rgb(34, 31, 31);
-    text-decoration: none;
-}
-.container2{
-    width: auto;
-    margin: auto;
-}
-.para{
-    margin-top: 50px;
-}
-.b1{
-    color: rgb(95, 92, 92);
-    letter-spacing: -0.0001em;
-    font-size: 20px;
-}
-.auth{
-    color: rgb(48, 46, 46);
-    letter-spacing: -0.001em;
-    font-size: 25px;
-}
-.pub{
-    color: rgb(95, 92, 92);
-    letter-spacing: -0.0001em;
-    font-size: 20px;
-}
-.new{
-    display: flex;
-    flex-direction: row;
-}
-.pub{
-    display: flex;
-    flex: 4;
-}
-@media not screen and (max-width: 700px) {
-    .container {
-        margin-left: 10%;
-        margin-right: 10%;
+@media screen and (min-width:600px){
+    .container{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
-    .mem{
-        font-family: sans-serif,Arial;
-        font-size: 20px;
-    }
-    .login-form{
-        font-size: 20px;
-    }
+    .main-container{
+        display: flex;
+        flex-direction: row; 
+    } 
     .logo{
-        margin-top: -3%;
+        /* width: 100px; */
+        /* height: 45%; */
+        /* display: flex;
+        flex: 1;   */
+        display: flex;
+        flex: 2; 
+        font-family: sans-serif,Arial;
+        font-size: 15px;
+        height: 45%;
+        font-weight: bold;
+        margin-top: -5%;
     }
     .searchbox{
-        margin-top: 0%;
+        font-family: sans-serif,Arial;
+        font-size: 15px;
+        font-weight: bold;
+        /* letter-spacing: -0.05em;
+        line-height: 45px; 
+        height: 3%; */
+        /* padding: 20px; */
+    }
+    .mem{
+        /* display: flex;
+        flex: 1;  */
+        font-family: sans-serif,Arial;
+        font-size: 18px;
+    }
+    .mem>a{
+        color:  rgb(48, 51, 48);
+    }
+    .login-form{
+        /* display: flex;
+        flex: 9;  */
+        font-family: sans-serif,Arial;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: -0.05em;
+    }
+    .login-form>a{
+        color: rgb(37, 226, 31);
+        text-decoration: none;
+    }
+    .tags{
+        margin-top: 5%;
+        display: flex;
+        flex-direction: row;
+    }
+    .tag1>a{
+        color: rgb(34, 31, 31);
+        text-decoration: none;
+    }
+    .tag2>a{
+        color: rgb(34, 31, 31);
+        text-decoration: none;
+    }
+    .container2{
+        width: auto;
+        margin: auto;
+    }
+    .para{
+        margin-top: 50px;
+    }
+    .mainb{
+        font-size: 10px;
+    }
+    .b1{
+        color: rgb(95, 92, 92);
+        letter-spacing: -0.0001em;
+        font-size: 20px;
+    }
+    .auth{
+        color: rgb(48, 46, 46);
+        letter-spacing: -0.001em;
+        font-size: 20px;
+    }
+    .pub{
+        color: rgb(95, 92, 92);
+        letter-spacing: -0.0001em;
+        font-size: 20px;
+    }
+    .new{
+        display: flex;
+        flex-direction: row;
+    }
+    .pub{
+        display: flex;
+        flex: 4;
+    }
+}
+
+@media screen and (max-width:600px){
+    .container{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 2;
+        margin-right: 2;
+    }
+    .logo{
+       display: none;
+    }
+    .searchbox{
+        display: none;
+    }
+    .mem{
+       display: none;
+    }
+    .login-form{
+       display: none;
+    }
+    .tags{
+        margin-top: 5%;
+        display: flex;
+        flex-direction: row;
+    }
+    .tag1>a{
+        color: rgb(34, 31, 31);
+        text-decoration: none;
+    }
+    .tag2>a{
+        display: none;
+    }
+    .container2{
+        width: auto;
+        margin: auto;
+    }
+    .para{
+        margin-top: 50px;
+    }
+    .mainb{
+        font-size: 10px;
+    }
+    .b1{
+        color: rgb(95, 92, 92);
+        letter-spacing: -0.0001em;
+        font-size: 20px;
+    }
+    .auth{
+        color: rgb(48, 46, 46);
+        letter-spacing: -0.001em;
+        font-size: 20px;
+    }
+    .pub{
+        color: rgb(95, 92, 92);
+        letter-spacing: -0.0001em;
+        font-size: 20px;
+    }
+    .new{
+        display: flex;
+        flex-direction: row;
+    }
+    .pub{
+        display: flex;
+        flex: 4;
     }
 }
