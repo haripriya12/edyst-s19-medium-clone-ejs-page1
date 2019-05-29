@@ -2,55 +2,55 @@
     .container{
         margin-top: 5%;
         margin-bottom: 5%;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 7%;
+        margin-right: 7%;
     }
     .main-container{
         display: flex;
         flex-direction: row; 
+        align-self: center;
     } 
     .logo{
-        /* width: 100px; */
-        /* height: 45%; */
-        /* display: flex;
-        flex: 1;   */
         display: flex;
-        flex: 2; 
+        flex: 7; 
+        text-align: left;
         font-family: sans-serif,Arial;
         font-size: 15px;
-        height: 45%;
+        /* height: 45%;  */
         font-weight: bold;
-        margin-top: -5%;
+        /* margin-top: -5%; */
     }
     .searchbox{
-        font-family: sans-serif,Arial;
-        font-size: 15px;
-        font-weight: bold;
-        /* letter-spacing: -0.05em;
-        line-height: 45px; 
-        height: 3%; */
-        /* padding: 20px; */
+        display: flex;
+        flex: 0;
     }
     .mem{
-        /* display: flex;
-        flex: 1;  */
+        display: flex;
+        flex: 2;
         font-family: sans-serif,Arial;
         font-size: 18px;
+        height: 30px;
     }
     .mem>a{
         color:  rgb(48, 51, 48);
+        text-decoration: none;
     }
     .login-form{
-        /* display: flex;
-        flex: 9;  */
+        display: flex;
+        flex: 2;
         font-family: sans-serif,Arial;
         font-size: 18px;
         font-weight: bold;
         letter-spacing: -0.05em;
+        height: 30px;
     }
     .login-form>a{
         color: rgb(37, 226, 31);
         text-decoration: none;
+    }
+    .rect{
+        border: 2px solid rgb(37, 226, 31);
+        height: 30px;
     }
     .tags{
         margin-top: 5%;
@@ -68,12 +68,13 @@
     .container2{
         width: auto;
         margin: auto;
+        margin-left: 6%;
     }
     .para{
         margin-top: 50px;
     }
     .mainb{
-        font-size: 10px;
+        font-size: 16px;
     }
     .b1{
         color: rgb(95, 92, 92);
@@ -123,9 +124,10 @@
         margin-top: 5%;
         display: flex;
         flex-direction: row;
+        font-size: 87%;
     }
     .tag1>a{
-        color: rgb(34, 31, 31);
+        color: rgb(15, 13, 13);
         text-decoration: none;
     }
     .tag2>a{
