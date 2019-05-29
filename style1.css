@@ -8,8 +8,12 @@
     .main-container{
         display: flex;
         flex-direction: row; 
-        align-self: center;
+        align-items: center;
     } 
+    /* .mr-container{
+        display: flex;
+        flex-direction: row;
+    } */
     .logo{
         display: flex;
         flex: 7; 
@@ -45,11 +49,11 @@
         height: 30px;
     }
     .login-form>a{
-        color: rgb(37, 226, 31);
+        color: rgb(106, 211, 102);
         text-decoration: none;
     }
     .rect{
-        border: 2px solid rgb(37, 226, 31);
+        border: 2px solid rgb(106, 219, 102);
         height: 30px;
     }
     .tags{
@@ -68,7 +72,8 @@
     .container2{
         width: auto;
         margin: auto;
-        margin-left: 4%;
+        margin-left: 3%;
+        margin-top: 10%;
     }
     .para{
         margin-top: 50px;
