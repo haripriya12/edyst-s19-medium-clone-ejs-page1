@@ -1,29 +1,29 @@
 {
-    "item":[{
-        "mainb":"Don't Forget to `Tidy Up`Your Digital Life, Too",
-        "b1":"How I adapted KonMari method to minimize desktop clutter and maximize productivity",
+    "data":[{
+        "title":"Don't Forget to `Tidy Up`Your Digital Life, Too",
+        "titledes":"How I adapted KonMari method to minimize desktop clutter and maximize productivity",
         "auth":"Therin Alrik in Noteworthy - The Journal Blog",
-        "pub":"1 . 4"
+        "readtimes":"1 . 4"
     },{
-        "mainb":"Tackling the Emotions Behind My Procrastination Problem",
-        "b1":"My habit of delaying to the last minutemay have deeper roots than i'd realized",
+        "title":"Tackling the Emotions Behind My Procrastination Problem",
+        "titledes":"My habit of delaying to the last minutemay have deeper roots than i'd realized",
         "auth":"Sara Zarr in Human Parts",
-        "pub":"16 . 5"
+        "readtimes":"16 . 5"
     },{
-        "mainb":"What My Brain Tumour Taught Me About Anxiety",
-        "b1":"And how it's helping me unravel the crimes of my mind",
+        "title":"What My Brain Tumour Taught Me About Anxiety",
+        "titledes":"And how it's helping me unravel the crimes of my mind",
         "auth":"Joan Reilly in Spiralbound",
-        "pub":"21 . 2"
+        "readtimes":"21 . 2"
     },{
-        "mainb":"A World Without Pain is a World Without Heroes",
-        "b1":"Five months after an earthquake shook Japan, I visited Tokya -- and witnessed how a country copes with tragedy",
+        "title":"A World Without Pain is a World Without Heroes",
+        "titledes":"Five months after an earthquake shook Japan, I visited Tokya -- and witnessed how a country copes with tragedy",
         "auth":"Nick Kolakowski in Human Parts",
-        "pub":"21 . 7"
+        "readtimes":"21 . 7"
     },{
-        "mainb":"Warning Signs That a Bubble is About to Burst",
-        "b1":"You don`t need a Noble to see the similarities between 1999 and 2019",
+        "title":"Warning Signs That a Bubble is About to Burst",
+        "titledes":"You don`t need a Noble to see the similarities between 1999 and 2019",
         "auth":"Scott Galloway in OneZero",
-        "pub":"9 . 6"
+        "readtimes":"9 . 6"
     }
 ] 
 }   

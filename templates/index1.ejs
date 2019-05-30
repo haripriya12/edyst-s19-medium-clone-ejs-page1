@@ -1,22 +1,22 @@
-<% for(data in jdata["item"]){%>
+<% for(data1 in jdata["data"]){%>
     <div class="container2">
     <div class="mainb">
-        <h1><%= jdata["item"][data]["mainb"] %></h1>
+        <h1><%= jdata["data"][data1]["title"] %></h1>
     </div>
     <div class="b1">
-        <p> <%=jdata["item"][data]["b1"] %> </p>
+        <p> <%=jdata["data"][data1]["titledes"] %> </p>
     </div>
     <div class="auth">
-        <p><%=jdata["item"][data]["auth"] %></p>
+        <p><%=jdata["data"][data1]["auth"] %></p>
     </div>
     <div class="new">
     <div class="pub">
-        <p>May<%=jdata["item"][data]["pub"] %>min read &#9733;</p>
+        <p>May<%=jdata["data"][data1]["readtimes"] %>min read &#9733;</p>
     </div>
     <div class="resp">
         <i style="font-size:24px" class="fa">&#xf097;</i> 
     </div>
     </div>
     </div>
-    <%}
+    <%} 
 %>
